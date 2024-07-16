@@ -10,11 +10,12 @@ import { CreateTripPage } from "./pages/create-trip";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <CreateTripPage/>,
+    element: <CreateTripPage />,
   },
 
-  {path: "/trips/:tripId",
-  element: <TripDetailsPage/>,
+  {
+    path: "/trips/:tripId",
+    element: <TripDetailsPage />,
   }
 ]);
 
